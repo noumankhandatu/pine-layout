@@ -3,7 +3,7 @@ import React from "react";
 const Card = () => {
   return (
     <div>
-      <div class="w-96 p-6 z-10 relative bg-white border border-gray-200 rounded-lg shadow white:bg-white-800 white:border-white-700">
+      <div class="xl:w-96 lg:w-80 w-72  p-6 z-10 relative bg-white border border-gray-200 rounded-lg shadow white:bg-white-800 white:border-white-700">
         <div className="flex items-center">
           <svg
             class="w-6 h-6 text-gray-500 dark:text-gray-400 mb-3"

@@ -45,7 +45,7 @@ export const SecondSectionBanner = ({ lableOne, lableTwo, color }) => {
   return (
     <div
       style={{ backgroundColor: "#0f0518", boxShadow: `0px 0px 73px 16px ${color}` }}
-      class=" text-white p-8 relative w-4/5 rounded-lg "
+      class=" text-white p-8 relative lg:w-4/5  w-full rounded-lg "
     >
       <p class="text-white text-[28px] mb-4"> {lableOne}</p>
       <Appfont class="text-base mb-10">{lableTwo}</Appfont>

@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-bgPrimary text-textPrimary py-8 relative">
-        <div className="container mx-auto flex flex-wrap">
+        <div className="lg:flex-row container  mx-auto flex flex-wrap flex-col-reverse">
           {/* First Column */}
           <div className="w-full sm:w-1/2 md:w-1/4 lg:w-1/4 xl:w-1/4 mb-4 px-4 text-center flex  flex-col items-center	">
             <h2 className="text-2xl font-semibold mb-4">

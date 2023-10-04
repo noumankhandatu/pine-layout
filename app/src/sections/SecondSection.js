@@ -25,30 +25,42 @@ const Icons = [<DocketIcon />, <RustIcon />, <CIcon />, <JSIcon />, <PythonIcon 
 const SecondSection = () => {
   return (
     <div>
-      <div className="flex items-center text-center justify-center pt-10 ">
+      <div className="flex lg:flex-row flex-col gap-2		items-center text-center justify-center pt-10 ">
         <AppHeading className={"text-[32px]"}>Create apps that</AppHeading>
-        <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} endIcon={<DarkIcon />} startIcon={<LightIcon />}>
+        <AppButton
+          className={"ml-2 mr-2 py-[8px] px-[20px]"}
+          endIcon={<DarkIcon />}
+          startIcon={<LightIcon />}
+        >
           Run
         </AppButton>
         <AppHeading className={"text-[32px]"}>everywhere</AppHeading>{" "}
       </div>
-      <div className="flex items-center text-center justify-center">
-        <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} endIcon={<Arow />} startIcon={<FlyIcon />}>
+      <div className=" flex lg:flex-row flex-col gap-2	  items-center text-center justify-center">
+        <AppButton
+          className={"ml-2 mr-2 py-[8px] px-[20px]"}
+          endIcon={<Arow />}
+          startIcon={<FlyIcon />}
+        >
           Publish
         </AppButton>
         <AppHeading className={"text-[32px]"}>and share with the community</AppHeading>
       </div>
-      <div className="flex items-center text-center justify-center">
+      <div className="flex lg:flex-row flex-col gap-2	 items-center text-center justify-center">
         <AppHeading className={"text-[32px]"}>and</AppHeading>
-        <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} endIcon={<FlyIcon />} startIcon={<DeployIcon />}>
+        <AppButton
+          className={"ml-2 mr-2 py-[8px] px-[20px]"}
+          endIcon={<FlyIcon />}
+          startIcon={<DeployIcon />}
+        >
           Publish
         </AppButton>
         <AppHeading className={"text-[32px]"}>to the edge , globally</AppHeading>
       </div>
-      <div className="flex justify-center items-center">
+      <div className="flex lg:flex-row flex-col gap-2	 justify-center items-center">
         <Line className="h-4 w-2 border-l border-[rgba(15,5,24,0.20)]" />
       </div>
-      <div className="flex items-center text-center justify-center pt-16 ">
+      <div className="flex lg:flex-row flex-col gap-2	 items-center text-center justify-center pt-16 ">
         <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} startIcon={<LightIcon />}>
           Runtime
         </AppButton>
@@ -87,16 +99,12 @@ const SecondSection = () => {
             Supports almost every programming language
           </Appfont>
         </div>
-        <div
-          className="w-4/5"
-          style={{
-            position: "absolute",
-            bottom: "0%",
-            left: "60%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
-          <SecondSectionBanner color='#88C2AB' lableOne={'Truly universal, runs everywhere & fast as native'} lableTwo={'See more info about Runtime'} />
+        <div className="w-4/5 absolute bottom-5 lg:left-60 left-10 transform translate-x-(-50) translate-y-(-50)">
+          <SecondSectionBanner
+            color="#88C2AB"
+            lableOne={"Truly universal, runs everywhere & fast as native"}
+            lableTwo={"See more info about Runtime"}
+          />
         </div>
       </div>
       <Appfont className={"text-center  mb-5"}>

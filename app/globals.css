@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 @font-face {
   font-family: "Gilroy";
   src: url("../font/Gilroy-Black.ttf") format("truetype");
@@ -32,6 +37,23 @@
   background: radial-gradient(at center, #e89589 15%, #eff1f6 50%);
   height: 500px;
   position: relative;
+}
+@media (max-width: 1024px) {
+  .green-gradient {
+    height: 700px; 
+    background: radial-gradient(at center, #e89589 35%, #eff1f6 80%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .green-gradienttwo {
+    height: 1050px; 
+  }
+}
+@media (max-width: 500px) {
+  .green-gradienttwo {
+    height: 1150px; 
+  }
 }
 .green-gradientthree {
   background: #6e31a2;

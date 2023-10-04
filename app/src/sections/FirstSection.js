@@ -23,19 +23,20 @@ const FirstSection = () => {
               <Image
                 src={ubuntuImg}
                 alt="image"
-                width={350}
-                height={"auto"}
+                className="lg:w-4/5  w-[350px]"
                 style={{
                   backgroundColor: "#0f0518",
                   boxShadow: `0px 0px 73px 16px #A691C0`,
                   borderRadius: "10px",
+                  maxWidth: "none",
+                  height: "auto",
                 }}
               />
             </div>
           </div>
 
           <Appfont className={"text-center pt-12 mb-5 text-[19px] spacing"}>
-            Serve sandboxed WebAssembly apps anywhere through a single <br />  runtime and do in days
+            Serve sandboxed WebAssembly apps anywhere through a single <br /> runtime and do in days
             what others do in months.
           </Appfont>
           <AppCustomFont className={" text-center text-[18px] text-black font-bold"}>

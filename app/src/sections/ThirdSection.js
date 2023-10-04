@@ -1,26 +1,11 @@
 import React from "react";
-import Appfont, { AppCustomFont, AppHeading } from "../Appfont/Appfont";
+import Appfont, { AppCustomFont } from "../Appfont/Appfont";
 import AppButton from "../components/button";
-import {
-  BatteryIcon,
-  CIcon,
-  DarkIcon,
-  DeployIcon,
-  DocketIcon,
-  FlyIcon,
-  GoIcon,
-  JSIcon,
-  LightIcon,
-  Line,
-  PythonIcon,
-  RustIcon,
-} from "../assets/icons";
+import { DarkIcon, Line } from "../assets/icons";
 import { SecondSectionBanner } from "../components/banner";
 import vercelImg from "../assets/vercel.PNG";
 import Image from "next/image";
 import Card from "../components/card";
-// eslint-disable-next-line react/jsx-key
-const Icons = [<DocketIcon />, <RustIcon />, <CIcon />];
 
 const ThirdSection = () => {
   return (
@@ -49,12 +34,7 @@ const ThirdSection = () => {
             transform: "translate(-50%, -50%)",
           }}
         >
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
+          <div className="flex justify-center lg:flex-row flex-col">
             {[1, 2, 3].map((items, id) => {
               return (
                 <div className="mr-2 mb-8" key={id}>
@@ -64,15 +44,7 @@ const ThirdSection = () => {
             })}
           </div>
         </div>
-        <div
-          className="w-4/5"
-          style={{
-            position: "absolute",
-            bottom: "0%",
-            left: "60%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
+        <div className="w-4/5 absolute bottom-5 lg:left-60 left-10 transform translate-x-(-50) translate-y-(-50)">
           <SecondSectionBanner
             lableOne="All languages, fully containerized & collaborative"
             lableTwo="See more info about Registry"

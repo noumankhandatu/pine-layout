@@ -42,26 +42,30 @@ const FourthSection = () => {
               justifyContent: "center",
             }}
           >
-            <Image src={banner} width={"100%"} height={"100%"} alt="img" />
+            <Image
+              className="lg:w-full  w-[370px]"
+              style={{
+                maxWidth: "none",
+                height: "auto",
+              }}
+              src={banner}
+              alt="img"
+            />
           </div>
-          <div className="flex  justify-center items-center mt-10">
-            <LightIcon />
-            <Appfont className=" text-white text-[22px] text-center mr-4">
-              Infinite scalability
-            </Appfont>
-            <DarkIcon />
-            <Appfont className=" text-white text-[22px] text-center">Instant cold starts</Appfont>
+          <div className="flex lg:flex-row flex-col-reverse gap-2 justify-center items-center mt-10 mb-10">
+            <div className="flex  justify-center items-center ">
+              <LightIcon />
+              <Appfont className=" text-white text-[22px] text-center mr-4">
+                Infinite scalability
+              </Appfont>
+            </div>
+            <div className="flex  justify-center items-center ">
+              <DarkIcon />
+              <Appfont className=" text-white text-[22px] text-center">Instant cold starts</Appfont>
+            </div>
           </div>
         </div>
-        <div
-          className="w-4/5"
-          style={{
-            position: "absolute",
-            bottom: "5%",
-            left: "60%",
-            transform: "translate(-50%, -50%)",
-          }}
-        >
+        <div className="w-4/5 absolute bottom-5 lg:left-60 left-10 transform translate-x-(-50) translate-y-(-50)">
           <SecondSectionBanner
             lableOne="Faster, cheaper & indefinitely scalable"
             lableTwo=""
