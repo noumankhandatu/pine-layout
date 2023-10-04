@@ -2,6 +2,7 @@ import React from "react";
 import Appfont, { AppCustomFont, AppHeading } from "../Appfont/Appfont";
 import AppButton from "../components/button";
 import {
+  Arow,
   BatteryIcon,
   CIcon,
   DarkIcon,
@@ -26,20 +27,20 @@ const SecondSection = () => {
     <div>
       <div className="flex items-center text-center justify-center pt-10 ">
         <AppHeading className={"text-[32px]"}>Create apps that</AppHeading>
-        <AppButton className={"ml-1 mr-1"} endIcon={<DarkIcon />} startIcon={<LightIcon />}>
+        <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} endIcon={<DarkIcon />} startIcon={<LightIcon />}>
           Run
         </AppButton>
         <AppHeading className={"text-[32px]"}>everywhere</AppHeading>{" "}
       </div>
       <div className="flex items-center text-center justify-center">
-        <AppButton className={"ml-1 mr-1"} endIcon={<BatteryIcon />} startIcon={<FlyIcon />}>
+        <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} endIcon={<Arow />} startIcon={<FlyIcon />}>
           Publish
         </AppButton>
         <AppHeading className={"text-[32px]"}>and share with the community</AppHeading>
       </div>
       <div className="flex items-center text-center justify-center">
         <AppHeading className={"text-[32px]"}>and</AppHeading>
-        <AppButton className={"ml-1 mr-1"} endIcon={<FlyIcon />} startIcon={<DeployIcon />}>
+        <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} endIcon={<FlyIcon />} startIcon={<DeployIcon />}>
           Publish
         </AppButton>
         <AppHeading className={"text-[32px]"}>to the edge , globally</AppHeading>
@@ -48,7 +49,7 @@ const SecondSection = () => {
         <Line className="h-4 w-2 border-l border-[rgba(15,5,24,0.20)]" />
       </div>
       <div className="flex items-center text-center justify-center pt-16 ">
-        <AppButton className={"ml-1 mr-1"} startIcon={<LightIcon />}>
+        <AppButton className={"ml-2 mr-2 py-[8px] px-[20px]"} startIcon={<LightIcon />}>
           Runtime
         </AppButton>
       </div>
@@ -82,7 +83,7 @@ const SecondSection = () => {
               );
             })}
           </div>
-          <Appfont className="mt-10 text-white text-[22px]">
+          <Appfont className="mt-10 text-white text-[18px]">
             Supports almost every programming language
           </Appfont>
         </div>
@@ -95,7 +96,7 @@ const SecondSection = () => {
             transform: "translate(-50%, -50%)",
           }}
         >
-          <SecondSectionBanner color='#89C3AD' lableOne={'Truly universal, runs everywhere & fast as native'} lableTwo={'See more info about Runtime'} />
+          <SecondSectionBanner color='#88C2AB' lableOne={'Truly universal, runs everywhere & fast as native'} lableTwo={'See more info about Runtime'} />
         </div>
       </div>
       <Appfont className={"text-center  mb-5"}>

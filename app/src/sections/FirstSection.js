@@ -11,7 +11,7 @@ const FirstSection = () => {
   return (
     <>
       <div>
-        <AppHeading className={"text-center"}>Run , Publish & Deploy</AppHeading>
+        <AppHeading className={"text-center"}>Run, Publish & Deploy</AppHeading>
         <AppHeading className={"text-center"}>any code - anywhere</AppHeading>
         <div className="h-32"></div>
         <div className="relative">
@@ -34,8 +34,8 @@ const FirstSection = () => {
             </div>
           </div>
 
-          <Appfont className={"text-center pt-12 mb-5"}>
-            Serve sandboxed WebAssembly apps anywhere through a single <br /> runtime and do in days
+          <Appfont className={"text-center pt-12 mb-5 text-[19px] spacing"}>
+            Serve sandboxed WebAssembly apps anywhere through a single <br />  runtime and do in days
             what others do in months.
           </Appfont>
           <AppCustomFont className={" text-center text-[18px] text-black font-bold"}>

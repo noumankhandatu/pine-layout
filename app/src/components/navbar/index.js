@@ -9,7 +9,7 @@ const values = ["Products", "Developers", "Packages", "Blog"];
 
 const Navbar = () => {
   return (
-    <div className={`flex justify-around items-center py-4 px-6 bg-bgPrimary `}>
+    <div className={`flex justify-evenly items-center py-4 px-6 bg-bgPrimary `}>
       <div>
         <Image src={logo} width={"auto"} height="auto" alt="logo" />
       </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
           return <Appfont key={id}>{items}</Appfont>;
         })}
       </div>
-      <AppButton>Sign Up</AppButton>
+      <AppButton className={' py-[8px] px-[16px]'}>Sign Up</AppButton>
     </div>
   );
 };

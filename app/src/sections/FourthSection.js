@@ -5,7 +5,6 @@ import { CIcon, DarkIcon, DocketIcon, FlyIcon, LightIcon, Line, RustIcon } from 
 import { SecondSectionBanner } from "../components/banner";
 import vercelImg from "../assets/vercel.PNG";
 import Image from "next/image";
-import Card from "../components/card";
 import banner from "../assets/baner.png";
 // eslint-disable-next-line react/jsx-key
 const Icons = [<DocketIcon />, <RustIcon />, <CIcon />];
@@ -17,7 +16,7 @@ const FourthSection = () => {
         <Line className="h-4 w-2 border-l border-[rgba(15,5,24,0.20)]" />
       </div>
       <div className="flex items-center text-center justify-center pt-16 ">
-        <AppButton className={"ml-1 mr-1"} startIcon={<FlyIcon />}>
+        <AppButton className={"ml-1 mr-1 px-[20px] py-[8px]"} startIcon={<FlyIcon />}>
           Edge
         </AppButton>
       </div>

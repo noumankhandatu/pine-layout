@@ -19,7 +19,7 @@ const SearchBar = () => {
       </div>
       <input
         style={{ backgroundColor: "#e4e5ea" }}
-        className="w-full pl-10 pr-3 py-2 border rounded-md focus:outline-none focus:ring focus:ring-blue-200 bg-bgPrimary"
+        className="w-full pl-10 pr-3 py-1.5 border rounded-md focus:outline-none focus:ring focus:ring-blue-200 bg-bgPrimary font-Gilroy "
         type="text"
         placeholder="Search Packages and users or apps..."
       />

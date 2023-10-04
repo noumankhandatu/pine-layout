@@ -1,15 +1,33 @@
 import React from "react";
 
 // Define the SVG icon as a React component
+export const Arow = () => (
+  <svg
+    style={{ marginTop: "5px" }}
+    xmlns="http://www.w3.org/2000/svg"
+    width="8"
+    height="8"
+    viewBox="0 0 12 12"
+    fill="none"
+  >
+    <path
+      d="M2.25 1.5H10.5M10.5 1.5V9.75M10.5 1.5L1.5 10.5"
+      stroke="#FBFBFC"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
 export const LightIcon = () => (
   <svg
-    style={{ color: "purple" }}
+    style={{ color: "purple" , marginTop:2 }}
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={1.5}
     stroke="currentColor"
-    className="w-6 h-6"
+    className="w-5 h-5"
   >
     <path
       strokeLinecap="round"
@@ -26,7 +44,7 @@ export const DarkIcon = () => (
     viewBox="0 0 24 24"
     strokeWidth={1.5}
     stroke="currentColor"
-    className="w-6 h-6"
+    className="w-5 h-5"
   >
     <path
       strokeLinecap="round"
@@ -56,13 +74,13 @@ export const BatteryIcon = () => (
 
 export const FlyIcon = () => (
   <svg
-    style={{ color: "pink" }}
+  style={{ color: "aqua" , marginTop:3 }}
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={1.5}
     stroke="currentColor"
-    className="w-6 h-6"
+    className="w-4 h-4"
   >
     <path
       strokeLinecap="round"
@@ -74,13 +92,13 @@ export const FlyIcon = () => (
 
 export const DeployIcon = () => (
   <svg
-    style={{ color: "green" }}
+    style={{ color: "green" , marginTop:3 }}
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
     viewBox="0 0 24 24"
     strokeWidth={1.5}
     stroke="currentColor"
-    className="w-6 h-6"
+    className="w-4 h-4"
   >
     <path
       strokeLinecap="round"

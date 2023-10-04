@@ -4,14 +4,26 @@
 
 @font-face {
   font-family: "Gilroy";
-  src: url("../app/src/Appfont/font/Gilroy-Light.otf") format("truetype");
+  src: url("../font/Gilroy-Black.ttf") format("truetype");
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/Gilroy-Semibold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../font/Gilroy-Light.otf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 .green-gradient {
-  background: #55ca8c;
-  background: radial-gradient(at center, #89c3ad 15%, #eff1f6 50%);
+  background: #429876;
+  background: radial-gradient(at center, #429876 15%, #eff1f6 50%);
   height: 500px;
   position: relative;
 }

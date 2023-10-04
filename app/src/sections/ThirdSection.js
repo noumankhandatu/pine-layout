@@ -29,7 +29,7 @@ const ThirdSection = () => {
         <Line className="h-4 w-2 border-l border-[rgba(15,5,24,0.20)]" />
       </div>
       <div className="flex items-center text-center justify-center pt-16 ">
-        <AppButton className={"ml-1 mr-1"} startIcon={<DarkIcon />}>
+        <AppButton className={"ml-1 mr-1 px-[20px] py-[8px]"} startIcon={<DarkIcon />}>
           Registry
         </AppButton>
       </div>

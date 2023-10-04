@@ -3,10 +3,10 @@ import React from "react";
 const AppButton = ({ children, startIcon, endIcon, className }) => {
   return (
     <button
-      class={`bg-gray-900 hover:bg-gray-700 text-white font-bold  py-2 px-6 rounded-full flex justify-between align-center ${className}`}
+      class={`bg-gray-900 hover:bg-gray-700 text-white font-bold  rounded-full flex justify-between align-center ${className}`}
     >
       {startIcon && startIcon}
-      <span className="ml-2 mr-2"> {children}</span>
+      <span className="ml-2 mr-2 text-[16px]"> {children}</span>
       {endIcon ? endIcon : ""}
     </button>
   );

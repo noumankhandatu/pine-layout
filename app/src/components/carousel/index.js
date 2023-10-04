@@ -7,6 +7,10 @@ import chrome from "../../assets/svg/chrome.svg";
 import php from "../../assets/svg/php.svg";
 import rust from "../../assets/svg/rust.svg";
 import python from "../../assets/svg/python.svg";
+import c3 from "../../assets/svg/c 3.svg";
+import ari from "../../assets/svg/Frame 48097727.svg";
+import zs from "../../assets/svg/Group 48095750.svg";
+import aris from "../../assets/svg/Group.svg";
 
 const DATA = [
   {
@@ -30,16 +34,8 @@ const DATA = [
     imageURI: python,
   },
   {
-    id: 3,
-    imageURI: php,
-  },
-  {
-    id: 4,
-    imageURI: rust,
-  },
-  {
-    id: 5,
-    imageURI: python,
+    id: 6,
+    imageURI: c3,
   },
   {
     id: 3,
@@ -49,9 +45,14 @@ const DATA = [
     id: 4,
     imageURI: rust,
   },
+
   {
-    id: 5,
-    imageURI: python,
+    id: 8,
+    imageURI: ari,
+  },
+  {
+    id: 9,
+    imageURI: zs,
   },
   {
     id: 3,
@@ -62,8 +63,16 @@ const DATA = [
     imageURI: rust,
   },
   {
-    id: 5,
-    imageURI: python,
+    id: 10,
+    imageURI: aris,
+  },
+  {
+    id: 3,
+    imageURI: php,
+  },
+  {
+    id: 4,
+    imageURI: rust,
   },
 ];
 
@@ -107,7 +116,7 @@ function Slider() {
                   alt="iamge"
                   id={items.id}
                   key={id}
-                  className="w-22 h-22 border-6 rounded-sm"
+                  className="w-22 h-22 border-6 rounded-sm "
                 />
               </div>
             </>
